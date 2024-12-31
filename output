@@ -1,0 +1,9 @@
+Enter lower limit 1
+Enter upper limit 5
+guess number between l and r
+6
+Out of range! Please guess a number between 1 and 5.
+3
+Try higher 
+4
+you guessed it in  3  attempts
