@@ -1,0 +1,23 @@
+import random
+l=int(input("Enter lower limit "))
+r=int(input("Enter upper limit "))
+res=random.randint(l,r)
+
+attempt=0
+
+print("guess number between l and r")
+
+while True:
+    n=int(input())
+    attempt+=1
+    if n < l or n > r:
+        print(f"Out of range! Please guess a number between {l} and {r}.")
+    elif n>res:
+        print("Try lower ")
+    elif n<res:
+        print("Try higher ")
+    else:
+        print("you guessed it in ",attempt," attempts")
+        break
+
+   
